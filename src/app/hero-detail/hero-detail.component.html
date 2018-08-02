@@ -1,0 +1,26 @@
+<div *ngIf="hero">
+    <h2>{{ hero.name | uppercase }} Details</h2>
+    <div><span>Id: </span>{{hero.id}}</div>
+    <div>  
+      <label>Name : 
+        <input  [(ngModel)] = "hero.name" placeholder="name">     
+        <!-- <span class="clearBtn">XXX-XXX-XX</span> -->
+      </label>      
+    </div>
+    <div>      
+    <a routerLink="/heroes">Back To Heroes</a>
+    <div>
+      <div>
+          <button type="button" class="btn btn-primary" 
+            tooltip = "Vivamus sagittis lacus">
+              Button with tooltip
+           </button>
+      </div>           
+    </div>
+    </div>
+    <div>
+        <h2>Data from B: {{ data }} </h2>
+        <input [(ngModel)] = 'data' />
+    </div>
+ </div>
+ 

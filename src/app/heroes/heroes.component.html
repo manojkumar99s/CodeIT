@@ -1,0 +1,47 @@
+
+<div id="container">
+    <div id="left"> 
+        <h2>My Heroes</h2>
+        <ul class="heroes">
+          <li *ngFor="let hero of heroes">
+           <a routerLink="/detail/{{hero.id}}">
+            <span class="badge">{{hero.id}}</span> {{hero.name}}
+           </a>
+          </li>
+        </ul>
+    </div>   
+    <!-- <div id="center">
+        <ng-container *ngIf="heroes">    
+            <table class="table table-striped">
+                    <thead>
+                            <th>ID</th>
+                            <th> Name <th>
+                            <th> Actions  </th>
+                        </thead>        
+            </table>         
+            <table *ngFor="let hero of heroes" class="table table-striped">                    
+                <tbody>
+                    <tr>
+                        <input type="checkbox" class="form-check-inline" />
+                        <td>{{hero.id}}</td>
+                        <td>{{hero.name}}</td>
+                        <td>
+                            <input type="button" value="Edit" class="btn btn-default" (click)="editEmployee(emp)" />
+                        </td>
+                        <td>
+                            <input type="button" value="Delete" class="btn btn-danger" (click)="deleteEmp(emp)"/>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+          </ng-container>
+    </div> -->   
+  </div>
+  <div style="padding-left: 300px "> 
+        <h2>Data from A: {{ data }} </h2>
+        <input [(ngModel)] = data />
+        <br><br>
+        <button [routerLink]="['/detail/11']">Go to B</button>
+</div>
+
+

@@ -1,0 +1,52 @@
+<div style="margin-top: 90px;margin-left:10px" class="container-fluid text-center">    
+    <div class="row content">          
+        <div class="col-sm-8 text-left"> 
+              <div class="heading">
+                  <h2 class="title">DEMOGRAPHICS</h2>
+              </div>              
+              <form #Form="ngForm"  class="form-inline" (ngSubmit)="onSubmit()">
+                  <div class="row mt20">
+                    	<div class="col-sm-2">
+                        	<div class="form-group">
+                        	  <label class="control-label">Age</label>
+                            <input type="text" class="form-control mb-2 mr-sm-2" [(ngModel)] = "model.age"  id="age" placeholder="Age" name="age">                        
+                            <label class="control-label">Drug</label>
+                            <input type="text" class="form-control mb-2 mr-sm-2" [(ngModel)] = "model.tbco" id="tbco" placeholder="Tobaco" name="tbco">          
+                             <label class="control-label">Profession</label>
+                            <input type="text" class="form-control mb-2 mr-sm-2" [(ngModel)] = "model.prof" id="prof" placeholder="Profession" name="prof">                             
+                          </div>
+                      </div>                        
+                      
+                      <div class="col-sm-2" style="margin-left: 100px">
+                        	<div class="form-group">                        	  
+                            <label class="control-label">Salary</label>
+                            <input type="text" class="form-control mb-2 mr-sm-2" [(ngModel)] = "model.slry" id="slry" placeholder="Salary" name="slry">
+                            <label class="control-label">Dependent</label>
+                            <input type="text" class="form-control mb-2 mr-sm-2" [(ngModel)] = "model.dependent" id="dependent" placeholder="Is Dependent" name="dependent">
+                            <button style="margin-top: 30px" type="submit" class="btn btn-default">Get Plan</button>  
+                          </div>
+                      </div>
+                  </div>         
+              </form>
+          </div>
+          <div class="col-sm-4 sidenav">
+            <div class="well">
+                <h4>AUDIENCE Estimate</h4>
+                <div class="panel-body">
+                <div class="user-panel">
+                  <strong>70 Mn.</strong> <span>overall</span><br>
+                    481 Mn.  Impressions Available
+                </div>
+                </div>
+            </div>
+            <div class="well">           
+                <div class="panel-body border mt20">
+                    <div class="user-panel user-panel-match">
+                    <strong>2.1 Mn.</strong> <span>MATCHED</span><br>
+                      481 Mn.  Impressions Available
+                  </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>

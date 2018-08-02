@@ -1,0 +1,120 @@
+/* 
+Light 		- 	font-family:'Lato', sans-serif;
+*/
+/* Common-Setting */
+body {font-family: 'Lato', sans-serif; color:#666; font-size:16px; line-height:1.2; padding-top:60px;}
+img { max-width:100%; height:auto; font-smoothing:antialiased; }
+strong {font-weight:bold;}
+a, button, input[type=submit] { -webkit-transition: all ease 0.3s; -moz-transition: all ease 0.3s; -o-transition: all ease 0.3s; -ms-transition: all ease 0.3s; transition: all ease 0.3s; }
+a, .btn-link {color:#f2b413;}
+.btn-link {text-decoration:underline; font-size:14px;}
+a:hover, a:focus, .btn-link:hover {color:#333;}
+.btn {text-transform:uppercase; font-weight:500;}
+.btn-default { background-color:#273245; border-color:#273245; text-transform:uppercase; -webkit-transition-duration:0.2s; transition-duration:0.2s; color:#fff;}
+.btn-default:hover, .btn-default:focus {background-color:#384660; border-color:#384660; color:#fff;}
+label { font-weight:600; color:#000; margin-top:10px; float: left;}
+.data-table { display:table; table-layout:fixed; width:100%; float:none; height:100%; }
+.data-cell { display:table-cell; vertical-align:middle; min-width:1%; float:none; }
+.data-table.vtop .data-cell { vertical-align:top; }
+iframe { width:100% !important; }
+.section { padding:40px 0;}
+
+h2 {font-size:32px;}
+h3 {font-size:26px;}
+h4 {font-size:18px;}
+h5 {font-size:16px;}
+hr { border-top:1px solid #cacaca; }
+.mt10 { margin-top:10px; }
+.mt20 { margin-top:20px; }
+.mt30 { margin-top:30px; }
+.mt40 { margin-top:40px; }
+.mt50 { margin-top:50px; }
+.mt60 { margin-top:60px; }
+.mt70 { margin-top:70px; }
+.mt80 { margin-top:80px; }
+.mb10 { margin-bottom:10px; }
+.mb20 { margin-bottom:20px; }
+.mb30 { margin-bottom:30px; }
+.mb40 { margin-bottom:40px; }
+.mb50 { margin-bottom:50px; }
+.mb60 { margin-bottom:60px; }
+.mb70 { margin-bottom:70px; }
+.mb80 { margin-bottom:80px; }
+.pt10 { padding-top:10px; }
+.pt20 { padding-top:20px; }
+.pt30 { padding-top:30px; }
+.pt40 { padding-top:40px; }
+.pt50 { padding-top:50px; }
+.pd-none { padding:0; }
+.mg-none { margin:0; }
+
+select::-ms-expand { display:none; }
+/* Select */
+.input-group-btn .btn {border-radius: 0 !important;}
+.bootstrap-select .btn { background:url(../../assets/dropdown.png) no-repeat center right; border-color:#949b9f; color:#333; border-radius:6px !important; outline:0 !important; box-shadow:none;}
+.bootstrap-select .bs-caret, .bootstrap-select .caret { display:none;}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option {white-space:nowrap; text-overflow:ellipsis;}
+.bootstrap-select .btn .caret {display:none;}
+/*.bootstrap-select .btn:before{content:'\f107'; font-family:FontAwesome; font-size:18px; position:absolute; width:30px; height:30px; line-height:30px; margin-top:-15px; top:50%; right:0; -webkit-transition-duration:0.4s; transition-duration:0.4s;}*/
+.form-group-lg .btn:before { font-size:24px; width:40px;}
+.bootstrap-select.btn-group.open.dropup .btn:before { -ms-transform:rotate(180deg); -webkit-transform:rotate(180deg); transform:rotate(180deg);}
+.bootstrap-select.btn-group.open .dropdown-toggle, .bootstrap-select .btn:hover, .bootstrap-select .btn:focus, .bootstrap-select .btn:active {border-color:#34509f; background-color: #fff; box-shadow:none; outline:none !important;}
+.bootstrap-select > .dropdown-toggle {padding-right:20px; z-index:0;}
+.bootstrap-select .dropdown-menu {padding:0; border-radius:0; border-color:#34509f; z-index:9; max-height:250px !important;}
+.bootstrap-select .dropdown-menu > li > a {padding:8px 15px; color:#777; white-space:inherit;}
+.bootstrap-select .dropdown-menu > li > a:hover, .bootstrap-select .dropdown-menu > .active > a {color:#fff; background-color:#273245;}
+.bootstrap-select .dropdown-menu > li.selected > a:hover, .bootstrap-select .dropdown-menu > li.selected > a { border-top:1px solid 949b9f;}
+.bootstrap-select .dropdown-menu > .active > a:focus, .bootstrap-select .dropdown-menu > .active > a:hover { background-color:#273245; color:#fff;}
+/* Select */
+
+
+#header {background-color:#273245; position:fixed; top:0; left:0; width:100%; height:60px; z-index:999;}
+#header .navbar-brand { padding:15px 20px 15px 0; height:60px;}
+#header .navbar-brand img { height:100%;}
+
+.heading {background-color:#545454; padding:15px 10px; display:block; border-radius:8px; margin-bottom:10px; margin-top:10px;}
+.heading .title { margin:0px; text-transform:uppercase; color:#fff; font-size:20px;}
+
+.contact-radio > label { padding-right:35px;}
+.contact-radio .btn-radio {display:inline-block; padding-right:20px; margin:0;}
+.contact-radio .btn-radio input[type="radio"] + label {padding:1px 0 0 18px;}
+.btn-radio input[type="radio"] + label:before {width:15px; height:15px;}
+.contact-radio .btn-radio input[type="radio"]:checked + label:before { border-color:#273245;}
+.contact-radio .btn-radio input[type="radio"] + label:after {background-color:#273245; top:2px; left:2px; width:12px; height:12px;}
+.contact-us-detail address strong {padding-left:15px;}
+
+.user-panel { background:url(../../assets/user.png) no-repeat top right; font-size:16px; font-weight:600; color:#000; text-transform:uppercase; padding:2px 0px;}
+.user-panel-match {background:url(../../assets/user2.png) no-repeat top right;}
+.user-panel strong{ font-size:34px; font-weight:600px;}
+.user-panel span { font-size:13px; font-weight:400;}
+.right-panel { margin-top:10px; padding:15px;}
+.right-panel h4{ color:#000; text-transform:uppercase; font-weight:600;}
+.right-panel .panel-body.border { border:1px solid #000;}
+
+.panel-blue { background-color:#273245; padding:15px 15px 40px; color:#fff; font-size:13px;}
+.panel-blue strong { font-size:14px;}
+.sav-btn { padding-right:50px;}
+.sav-btn .btn + .btn { margin-left:15px;}
+.form-panel { padding:0 32px;}
+
+@media only screen and (max-width:1199px) { 
+.contact-radio > label { padding-right:15px;}
+.contact-radio .btn-radio {padding-right:8px;}
+.user-panel strong { font-size:28px;}
+}
+@media only screen and (max-width:991px) { 
+.sav-btn { padding:0; text-align:center;}
+}
+@media only screen and (max-width:767px) { 
+.heading {  padding:10px;}
+.btn-radio input[type="radio"] + label, .btn-checkbox input[type="checkbox"] + label { font-size:14px;}
+.heading .title { font-size:16px;}
+.user-audience { position:fixed; left:0; bottom:0; background-color:#fff; z-index:1; width:100%; padding:0 10px; border-top:1px solid #273245;}
+.right-panel h4 { font-size:16px; margin-bottom:0px; padding-left:15px;}
+.user-panel { font-size:13px;}
+.user-panel strong { font-size:20px;}
+.right-panel .panel-body { padding:8px 15px;}
+.panel-body.mt20 {margin-top:6px;} 
+.form-panel {padding:0 12px;} 
+.row.mt20 {margin-top:0px;}
+}

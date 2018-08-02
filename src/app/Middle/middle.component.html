@@ -1,0 +1,185 @@
+<html>
+<body class="topBanner">
+    <div class="topBannerIn topbanner_iframe">
+
+            <div class="getGuote-cont">
+                    <!-- Control Start  -->
+                    <form #Form="ngForm"  class="form-inline" (ngSubmit)="onSubmit()">
+                        <input type="text" class="form-control mb-2 mr-sm-2" [(ngModel)] = "model.age"  id="age" placeholder="Age" name="age">                        
+                        <input type="text" class="form-control mb-2 mr-sm-2" [(ngModel)] = "model.tbco" id="tbco" placeholder="Tobaco" name="drug">
+                        <input type="text" class="form-control mb-2 mr-sm-2" [(ngModel)] = "model.prof" id="prof" placeholder="Profession" name="profession">                        
+                        <input type="text" class="form-control mb-2 mr-sm-2" [(ngModel)] = "model.slry" id="slry" placeholder="Salary" name="salary">
+                        <input type="text" class="form-control mb-2 mr-sm-2" [(ngModel)] = "model.dependent" id="dependent" placeholder="Is Dependent" name="isDependent">   
+                        <div class="getGuote-cont-right-GetBtn">
+                        <button type="submit" class="getQuote-b">Get Plan</button>
+                        </div>
+                      </form>
+                    <!-- Control End  -->
+                </div>
+
+        <div class="topPlanBox padding_bottom_0">
+            <div class="travelPlanBox">
+                <div class="travelPlanBoxIn">
+                    <div class="topName">
+                        <span class="sprite travelInsuranceTxt_png"></span>
+                    </div>
+                    <div class="planContainerBox">
+                        <div class="planBoxIn brdrbotwh explore-plan">
+                            <span class="planBoxInScroll"></span>
+                            <div class="planBoxInDev">
+                                <div class="imgBox">
+                                    <span class="sprite exploreImg_png"></span>
+                                </div>
+                                <div class="generalTxtBox"><div class="generalTxtBoxIn"><div class="greenTxtBox">International Travel Insurance</div></div></div>
+                            </div>
+
+                            <a href="" class="planBoxOutScroll" onclick="postLead('Travel Insurance Plans', 'Explore');" style="display: none;"></a>
+                            <div class="planBoxInDevGr" style="display: none;">
+                                <div class="imgBox">
+                                    <span class="sprite exploreImg_png"></span>
+                                </div>
+                                <ul>
+                                    <li>Region specific, value for money Overseas Travel Cover providing benefits from hospitalization to trip cancellation to lost baggage &amp; lots more.</li>
+                                </ul>
+                                <a href="" class="getqBtn" onclick="postLead('Travel Insurance Plans', 'Explore');">Get free quote</a>
+                            </div>
+                        </div>
+                        <div class="planBoxIn">
+                            <span class="planBoxInScroll" style=""></span>
+                            <div class="planBoxInDev" style="">
+                                <div class="imgBox"><span class="sprite studentExploreImg_png"></span></div>
+                                <div class="generalTxtBox"><div class="generalTxtBoxIn"><div class="greenTxtBox">International Travel &amp; Health Insurance for Students</div></div></div>
+                            </div>
+                            <a href="" class="planBoxOutScroll" onclick="postLead('Travel Insurance Plans', 'Student Explore');" style="display: none;"></a>
+                            <div class="planBoxInDevGr" style="display: none;">
+                                <div class="imgBox"><span class="sprite studentExploreImg_png"></span></div>
+                                <ul>
+                                    <li>A comprehensive &amp; value for money travel insurance in alignment with university guidelines for students traveling abroad for higher education.</li>
+                                </ul>
+                                <a href="" class="getqBtn" onclick="postLead('Travel Insurance Plans', 'Student Explore');">Get free quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cl"></div>
+                </div>
+            </div>
+            <div class="travelPlanBox healthPlanBox">
+                <div class="travelPlanBoxIn">
+                    <div class="topName">
+                        <!-- <img src="https://www.religarehealthinsurance.com/cpimages/healthInsuranceTxt.png" alt="Health Insurance Plan"> -->
+                        <span class="sprite healthInsuranceTxt_png"></span>
+                    </div>
+                    <div class="planContainerBox">
+                        <div class="topPlanHalf">
+                            <div class="topPlanHalfIn">
+                                <div class="planBoxIn brdrbotwh">
+                                    <span class="planBoxInScroll" style=""></span>
+                                    <div class="planBoxInDev" style="">
+                                        <div class="imgBox"><span class="sprite careImg_png"></span></div>
+                                        <div class="generalTxtBox"><div class="generalTxtBoxIn"><div class="greenTxtBox">Comprehensive Health Insurance</div></div></div>
+                                    </div>
+                                    <a href="" class="planBoxOutScroll" onclick="postLead('Health Insurance Plans', 'Care');" style="display: none;"></a>
+                                    <div class="planBoxInDevGr" style="display: none;">
+                                        <div class="imgBox"><span class="sprite careImg_png"></span></div>
+                                        <ul>
+                                            <li>Value for money hospitalization insurance for 1<sup>st</sup> time buyers covering basic hospital expenses with additional benefits like Automatic Recharge of SI, annual health check-up, Organ Donor &amp; lot more.</li>
+                                        </ul>
+                                        <a href="" class="getqBtn" onclick="postLead('Health Insurance Plans', 'Care');">Get free quote</a>
+                                    </div>
+                                </div>
+                                <div class="planBoxIn">
+                                    <span class="planBoxInScroll" style=""></span>
+                                    <div class="planBoxInDev" style="">
+                                        <div class="imgBox"><span class="sprite careFreedomImg_png"></span></div>
+                                        <div class="generalTxtBox"><div class="generalTxtBoxIn"><div class="greenTxtBox">Health Insurance without Medical Check-ups</div></div></div>
+                                    </div>
+
+                                    <a href="https://www.religarehealthinsurance.com/policy-buy-senior-citizens-health-insurance-online.html" class="planBoxOutScroll" onclick="postLead('Health Insurance Plans', 'Care Freedom');" style="display: none;"></a>
+                                    <div class="planBoxInDevGr" style="display: none;">
+                                        <div class="imgBox"><span class="sprite careFreedomImg_png"></span></div>
+                                        <ul>
+                                            <li>Comprehensive Health Insurance to free yourself from worries of pre-policy medical check-up with benefits of Automatic SI Recharge, annual health check-up, 2 year waiting for Pre-existing diseases &amp; more.</li>
+                                        </ul>
+                                        <a href="https://www.religarehealthinsurance.com/policy-buy-senior-citizens-health-insurance-online.html" class="getqBtn" onclick="postLead('Health Insurance Plans', 'Care Freedom');">Get free quote</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="topPlanHalf">
+                            <div class="planBoxIn brdrbotwh">
+                                <span class="planBoxInScroll" style=""></span>
+                                <div class="planBoxInDev" style="">
+                                    <div class="imgBox"><span class="sprite enhanceImg_png"></span></div>
+                                    <div class="generalTxtBox"><div class="generalTxtBoxIn"><div class="greenTxtBox">Super Top-up Insurance</div></div></div>
+                                </div>
+                                <a href="https://www.religarehealthinsurance.com/buy-top-up-medical-insurance-policy.html" class="planBoxOutScroll" onclick="postLead('Health Insurance Plans', 'Enhance');" style="display: none;"></a>
+                                <div class="planBoxInDevGr" style="display: none;">
+                                    <div class="imgBox"><span class="sprite enhanceImg_png"></span></div>
+                                    <ul>
+                                        <li>Value for money health insurance with benefits like annual health check-up, expert opinion to fund extreme health expenses for those who are not worried about basic health expenses.</li>
+                                    </ul>
+                                    <a href="https://www.religarehealthinsurance.com/buy-top-up-medical-insurance-policy.html" class="getqBtn" onclick="postLead('Health Insurance Plans', 'Enhance');">Get free quote</a>
+                                </div>
+                            </div>
+                            <div class="planBoxIn">
+                                <span class="planBoxInScroll" style=""></span>
+                                <div class="planBoxInDev" style="">
+                                    <div class="imgBox"><span class="sprite joyImg_png"></span></div>
+                                    <div class="generalTxtBox"><div class="generalTxtBoxIn"><div class="greenTxtBox">Maternity &amp; Newborn Cover with Health Insurance</div></div></div>
+                                </div>
+                                <a href="https://www.religarehealthinsurance.com/buy-maternity-health-insurance-plan.html" class="planBoxOutScroll" onclick="postLead('Health Insurance Plans', 'Joy');" style="display: none;"></a>
+                                <div class="planBoxInDevGr" style="display: none;">
+                                    <div class="imgBox"><span class="sprite joyImg_png"></span></div>
+                                    <ul>
+                                        <li>Maternity &amp; newborn focused health insurance with a 9 month waiting period for maternity related expenses in line with nature’s law, especially designed for those who are planning their family.</li>
+                                    </ul>
+                                    <a href="https://www.religarehealthinsurance.com/buy-maternity-health-insurance-plan.html" class="getqBtn" onclick="postLead('Health Insurance Plans', 'Joy');">Get free quote</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cl"></div>
+                </div>
+            </div>
+            <div class="travelPlanBox benefitPlanBox">
+                <div class="travelPlanBoxIn">
+                    <div class="topName"><span class="sprite benefitPlansTxt_png"></span></div>
+                    <div class="planContainerBox">
+                        <div class="planBoxIn brdrbotwh">
+                            <span class="planBoxInScroll" style=""></span>
+                            <div class="planBoxInDev" style="">
+                                <div class="imgBox"><span class="sprite assureImg_png"></span></div>
+                                <div class="generalTxtBox"><div class="generalTxtBoxIn"><div class="greenTxtBox">Critical Illness &amp; Personal Accident Insurance</div></div></div>
+                            </div>
+                            <a href="https://www.religarehealthinsurance.com/buy-critical-illness-insurance-policy.html" class="planBoxOutScroll" onclick="postLead('Fixed Benefit Plans', 'Assure');" style="display: none;"></a>
+                            <div class="planBoxInDevGr" style="display: none;">
+                                <div class="imgBox"><span class="sprite assureImg_png"></span></div>
+                                <ul>
+                                    <li>Life is about surprises, moreover critical illnesses &amp; accident incidents are increasing, Assure ensures fixed lumpsum payment on zero day survival &amp; annual health check-up putting rest to financial worries.</li>
+                                </ul>
+                                <a href="https://www.religarehealthinsurance.com/buy-critical-illness-insurance-policy.html" class="getqBtn" onclick="postLead('Fixed Benefit Plans', 'Assure');">Get free quote</a>
+                            </div>
+                        </div>
+                        <div class="planBoxIn">
+                            <span class="planBoxInScroll" style=""></span>
+                            <div class="planBoxInDev" style="">
+                                <div class="imgBox"><span class="sprite secureImg_png"></span></div>
+                                <div class="generalTxtBox"><div class="generalTxtBoxIn"><div class="greenTxtBox">Personal Accident Insurance</div></div></div>
+                            </div>
+                            <a href="https://www.religarehealthinsurance.com/personal-accident-insurance-policy.html" class="planBoxOutScroll" onclick="postLead('Fixed Benefit Plans', 'Secure');" style="display: none;"></a>
+                            <div class="planBoxInDevGr" style="display: none;">
+                                <div class="imgBox"><span class="sprite secureImg_png"></span></div>
+                                <ul>
+                                    <li>Accidents always don’t mean death &amp; hence we give the most comprehensive Personal Accident &amp; Disability cover with additional benefits like fractures, major diagnostic tests, disappearance and lot more.</li>
+                                </ul>
+                                <a href="https://www.religarehealthinsurance.com/personal-accident-insurance-policy.html" class="getqBtn" onclick="postLead('Fixed Benefit Plans', 'Secure');">Get free quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cl"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

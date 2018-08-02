@@ -1,0 +1,5 @@
+.clearBtn {
+    position: relative;
+    left: -125px;
+    transition: left 0.3s;
+}
